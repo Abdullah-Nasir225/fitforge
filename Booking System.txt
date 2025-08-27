@@ -1,0 +1,18 @@
+Pricing:-
+
+Silver | Gold | Platinum
+
+Features | Features | Features
+Features1 | Features1 | Features1
+Features1 | Features2 | Features2
+Features1 | Features2 | Features3
+
+book now | book now | book now
+
+Joining Date : input_date | Time | Available Trainers | Selected Plan
+
+1-Aug-2025  						Confirm
+
+Open a form contains name, phone number, etc
+
+thanks for booking

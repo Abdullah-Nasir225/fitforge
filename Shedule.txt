@@ -1,1 +1,35 @@
-Prototyping on Figma 2 Days Time 3-5
+1)
+Prototyping on Figma 2 Days Duration(3-4)
+Pages home, about, trainers, pricing, Appointment, Services, Shedule, Contact, BMI Calculator
+
+2)
+Home Page Hero Section + Animations + Scroll-Based-Animations, Responsivness
+Duration(5-8)
+
+3)
+About Page Basic Animations and some text
+Duration(9)
+
+4)
+Trainers Basic Animations and some text + images
+Duration(10)
+
+5)
+Pricing Basic Animations and some text + images
+Duration(10)
+
+6)
+Booking System with Firebase Integration
+Duration (11-13)
+
+7)
+Contact Great UI form 
+Duration (14)
+
+8) Deployment on Netlify or Vercel or Github
+Duration (15)
+
+Project DeadLine 17-July-2025
+---------------------------------------
+https://www.wix.com/website-template/view/html/4992?
+Best of Luck!
