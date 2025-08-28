@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 
 export default function Card1({ heading, subheading, para, back, btnClr }) {
     return (
-        <Card sx={{ minWidth: 275, padding: '1rem', backgroundColor: `${back}` }}>
+        <Card sx={{ minWidth: 275, padding: '1rem', backgroundColor: `${back}`,minHeight:'5rem' }}>
             <CardContent>
                 <Typography gutterBottom sx={{ color: 'white', fontSize: 14, fontWeight: 'bolder', textAlign: 'left' }}>
                     {heading}
