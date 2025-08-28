@@ -39,7 +39,7 @@ const About = () => {
               para="Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas" btnClr="#FB8942" />
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} className=" d-flex">
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} sx={{height:'5rem'}}className=" d-flex">
             <ImageCard img={img1} />
           </Grid>
 
@@ -49,11 +49,11 @@ const About = () => {
               para="Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas" btnClr="#303030ff" />
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} className=" d-flex">
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} sx={{height:'5rem'}} className=" d-flex">
             <ImageCard img={img2} />
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} className=" d-flex">
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} sx={{height:'5rem'}} className=" d-flex">
             <ImageCard img={img3} />
           </Grid>
 
@@ -63,7 +63,7 @@ const About = () => {
               para="Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus maecenas" btnClr="#303030ff" />
           </Grid>
 
-          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} className=" d-flex">
+          <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} sx={{height:'5rem'}} className=" d-flex">
             <ImageCard img={img4} />
           </Grid>
 
