@@ -31,7 +31,7 @@ const About = () => {
 
       {/* card & img section */}
       <Container disableGutters maxWidth={false}>
-        <Grid container>
+        <Grid container spacing={0}>
 
           <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3, xl: 3 }} className=" d-flex">
             <Card1
