@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from "motion/react"
 import { Container, Button, Grid } from '@mui/material';
-import { Email, AccessTime, Call, KeyboardArrowDown } from '@mui/icons-material';
+import { KeyboardArrowUp, Email, AccessTime, Call, KeyboardArrowDown } from '@mui/icons-material';
 import pic from '../assests/img/logo.png';
 import GoToTop from './GoToTop';
 import nav from '../assests/img/navbar.png'
@@ -132,7 +132,7 @@ const Navbar = () => {
                                 </li>
                                 <li className='drop-li'>
                                     <Link to="" onClick={ListAppear} className={activeLoc.pathname == '/Pages' ? 'active' : 'disactive'}>Pages</Link>
-                                    {!list ? <KeyboardArrowDown sx={{ position: 'absolute', right: 15, top: 5, cursor: 'pointer' }} onClick={ListAppear} fontSize="small" /> : ''}
+                          {!list ? <KeyboardArrowDown sx={{ position: 'absolute', right: 15, top: 5, cursor: 'pointer' }} onClick={ListAppear} fontSize="small" /> : <KeyboardArrowUp sx={{ position: 'absolute', right: 15, top: 5, cursor: 'pointer' }} onClick={ListAppear} fontSize="small" />}
                                     <ul className="dropdown" ref={showlist}>
 
                                         <li align="left" >
