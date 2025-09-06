@@ -131,7 +131,7 @@ const Navbar = () => {
                                     <Link to="/Pricing" onClick={menu} className={activeLoc.pathname == '/Pricing' ? 'active' : 'disactive'}>Pricing</Link>
                                 </li>
                                 <li className='drop-li'>
-                                    <Link to="" onClick={ListAppear} className={activeLoc.pathname == '/Pages' ? 'active' : 'disactive'}>Pages</Link>
+                                    <Link to="#" onClick={ListAppear} className={activeLoc.pathname == '/Pages' ? 'active' : 'disactive'}>Pages</Link>
                           {!list ? <KeyboardArrowDown sx={{ position: 'absolute', right: 15, top: 5, cursor: 'pointer' }} onClick={ListAppear} fontSize="small" /> : <KeyboardArrowUp sx={{ position: 'absolute', right: 15, top: 5, cursor: 'pointer' }} onClick={ListAppear} fontSize="small" />}
                                     <ul className="dropdown" ref={showlist}>
 
